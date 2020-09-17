@@ -30,7 +30,7 @@ public Long newIndex(ServiceInterface service) throws SQLException {
 }
 
     public CRUDWindow(Window redactionWindow, DoctorsService service) {
-        //insert into groups
+      
         GridLayout grid = new GridLayout(4, 6);
         grid.setSpacing(true);
         grid.setSizeFull();
@@ -147,7 +147,7 @@ public Long newIndex(ServiceInterface service) throws SQLException {
 
     }
     public CRUDWindow(Window redactionWindow, PatientsService service) {
-        //insert into groups
+        
         GridLayout grid = new GridLayout(4, 6);
         grid.setSpacing(true);
         grid.setSizeFull();
@@ -203,7 +203,7 @@ public Long newIndex(ServiceInterface service) throws SQLException {
 
     }
     public CRUDWindow(Window redactionWindow, PatientsService service, String[] selectRow) {
-        //insert into groups
+       
         GridLayout grid = new GridLayout(4, 6);
         grid.setSpacing(true);
         grid.setSizeFull();
